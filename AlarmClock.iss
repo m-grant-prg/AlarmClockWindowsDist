@@ -40,8 +40,8 @@ Source: "C:\Users\Mark Grant PRG\Documents\AlarmClockWindowsDist\lib\*"; DestDir
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
-Name: "{group}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"
-Name: "{commondesktop}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"; Tasks: desktopicon
+Name: "{commonstartmenu}\{#MyAppName}"; Filename: "{app}\AlarmClock.jar"; IconFilename: "{app}\AlarmClock.ico"; IconIndex: 0
+Name: "{commondesktop}\{#MyAppName}"; Filename: "{app}\AlarmClock.jar"; IconFilename: "{app}\AlarmClock.ico"; Tasks: desktopicon
 
 [Run]
 Filename: "{app}\{#MyAppExeName}"; Description: "{cm:LaunchProgram,{#StringChange(MyAppName, '&', '&&')}}"; Flags: shellexec postinstall skipifsilent
