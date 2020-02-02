@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "AlarmClock"
-#define MyAppVersion "1.2.2"
+#define MyAppVersion "1.3.2"
 #define MyAppPublisher "Mark Grant"
 #define MyAppURL "https://github.com/m-grant-prg/alarmclock-java/wiki"
 #define MyAppExeName "AlarmClock.jar"
